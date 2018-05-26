@@ -1,0 +1,101 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.center{
+    text-align: center;
+}
+.error{
+    color: #ff7979;
+    background: #222627;
+    text-shadow: 0 0 0.2em black;
+    border-radius: 1em;
+}
+
+.msg {
+    color: #afff79;
+    background: #222627;
+    text-shadow: 0 0 0.2em black;
+    border-radius: 1em;
+}
+
+.login,
+.reset {
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 2em;
+    color: white;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em black;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0.5em 0;
+    background: #222627;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em black inset;
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+    border: 1px solid #dff5ff;
+}
+
+form p {
+    text-align: center;
+}
+
+form a {
+    color: #dff5ff;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+    outline: none;
+    padding: 1em 2em;
+    background: #222627;
+    background: linear-gradient(#3f4749, #222627, #303738);
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: 0 0 0.3em black;
+}
+
+input[type=submit]:active,
+input[type=button]:active,
+input[type=reset]:active {
+    background: #181b1b;
+}
+
+.loggedin{
+  width: 400px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
